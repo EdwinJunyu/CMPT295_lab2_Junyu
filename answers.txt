@@ -1,0 +1,7 @@
+Q1:
+The do_something function returns the smallest positive perfect square that is greater than or equal to its argument.
+
+Q2:
+I used %rbx, a call-preserved register, to store x because the value of x is needed across several calls to f. 
+I saved the original value of %rbx before using it and restored it before returning. 
+I used %rcx, a non-call-preserved register, for a. Since f destroys %rcx, I saved the value of a on the stack before calling f and restored it afterward.
